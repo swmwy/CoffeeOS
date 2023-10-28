@@ -7,6 +7,8 @@ CoffeeOS is a free, open source operating system powered by the language Java. I
 CoffeeOS is able to run on any device, and here are the instructions on how to.
 
 **Windows**
+
+
 To run CoffeeOS on a Windows computer, enter the command line and go to the directory CoffeeOS is in. Then, type in:
 ```console
 C:\myfolder> dir
