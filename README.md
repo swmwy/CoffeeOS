@@ -17,10 +17,10 @@ C:\myfolder> dir
 C:\myfolder> set path=%path%;C:\Program Files\Java\jdk1.5.0_09\bin
 ```
 ```console
-C:\myfolder> javac CoffeeOS.java
+C:\myfolder> javac coffeeos.java
 ```
 ```console
-C:\myfolder> java CoffeeOS
+C:\myfolder> java coffeeos
 ```
 This should open CoffeeOS in a new window.
 
