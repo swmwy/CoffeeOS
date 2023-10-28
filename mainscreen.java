@@ -7,6 +7,13 @@ import javax.swing.*;
 public class mainscreen {
   public getTime() {
     LocalDateTime localTime = LocalDateTime.now();
-    DateTimeFormatter localTimeFormatted = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
+    DateTimeFormatter timeToUse = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
+  }
+  public loginOrMakeAccount() {
+    Text txt = new Text();
+    string greeting = "Welcome to CoffeeOS. Log in or create an account.";
+    txt.setText(greeting);
+    txt.setX(50);
+    txt.setY(50);
   }
 }
