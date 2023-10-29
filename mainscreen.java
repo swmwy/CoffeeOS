@@ -6,6 +6,7 @@ import javax.swing.*;
 
 public class mainscreen {
   public getTime() {
+    //Find the time to display on the screen
     LocalDateTime localTime = LocalDateTime.now();
     DateTimeFormatter timeToUse = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
   }
