@@ -3,8 +3,8 @@ Copyright 2023 */
 
 import javax.swing.*;
 
-class javaos {
-  private static void initWindow() {
-    JFrame CoffeeOSWindow = new JFrame("CoffeeOS V. 1.0.0");
-      }
+class coffeeos {
+  JFrame CoffeeOSWindow = new JFrame("CoffeeOS V. 1.0.0 (Alpha)");
+  CoffeeOSWindow.setSize(1920,1080);
+  
 }
