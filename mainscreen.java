@@ -11,10 +11,12 @@ public class mainscreen {
     DateTimeFormatter timeToUse = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
   }
   public loginOrMakeAccount() {
+    //Make CoffeeOS prompt you to login or sign in
     Text txt = new Text();
     string greeting = "Welcome to CoffeeOS. Log in or create an account.";
     txt.setText(greeting);
     txt.setX(50);
     txt.setY(50);
+    
   }
 }
