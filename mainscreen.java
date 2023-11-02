@@ -4,7 +4,9 @@ import javax.swing.*;
 
 //Make the CoffeeOS home screen
 
-public class mainscreen {
+public class mainscreen extends JFrame implements ActionListener {
+
+  public coffeeosFrame = new JFrame("CoffeeOS V.1.0.0(Alpha)");
   public getTime() {
     //Find the time to display on the screen
     LocalDateTime localTime = LocalDateTime.now();
@@ -12,7 +14,6 @@ public class mainscreen {
   }
   public loginOrMakeAccount() {
     //Make CoffeeOS prompt you to login or sign in
-    
     Text txt = new Text();
     string greeting = "Welcome to CoffeeOS. Log in or create an account.";
     txt.setText(greeting);
