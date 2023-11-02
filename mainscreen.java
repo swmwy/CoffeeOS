@@ -12,11 +12,17 @@ public class mainscreen {
   }
   public loginOrMakeAccount() {
     //Make CoffeeOS prompt you to login or sign in
+    
     Text txt = new Text();
     string greeting = "Welcome to CoffeeOS. Log in or create an account.";
     txt.setText(greeting);
     txt.setX(50);
     txt.setY(50);
+    submitButton = new JButton("Continue");
+    error1 = new JLabel("Please enter text");
+    error2 = new JLabel("Please enter again, the password and/or username is incorrect");
+    username = new JTextField(16);
+    password = new JTextField(16);
     
   }
 }
